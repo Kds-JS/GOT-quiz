@@ -6,16 +6,10 @@ const Footer = () => {
 
 
     return (
-        <div className="footer">
-            <div>
-                <h3>Footer</h3>
-                <p>Projet réalisé par Kds</p>
-            </div>
-            <div>
-                <h6>Facebook</h6>
-                <h6>Twitter</h6>
-            </div>
-        </div>
+        <footer>
+                <h3>Projet réalisé par <a href="https://twitter.com/kds_JS">Kds</a> - 2022</h3>
+                <p>Les questions ont été copié sur francetvinfo.fr/</p>
+        </footer>
     )
 }
 

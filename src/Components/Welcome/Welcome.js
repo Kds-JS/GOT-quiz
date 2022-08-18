@@ -53,7 +53,7 @@ const Welcome = () => {
         userSession && toast.info(`Bienvenue ${userData.pseudo}, et bonne chance`, {
             icon: false,
             position: "top-right",
-            autoClose: 2000,
+            autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,

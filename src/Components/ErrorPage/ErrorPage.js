@@ -3,6 +3,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import './ErrorPage.scss';
 
+// Components
+import Loader from "../Loader/Loader";
 
 const ErrorPage = () => {
 
@@ -11,7 +13,7 @@ const ErrorPage = () => {
     const redirection = () => {
 
         setTimeout(() => {
-            navigate('/')
+            navigate(-1);
         }, 5000)
     }
 
@@ -20,7 +22,8 @@ const ErrorPage = () => {
 
     return (
         <div className="ErrorPage">
-            <h3>Oups, cette page n'existe pas, Vous serez Rédirigez vers la page d'accueil dans 5s.......</h3>
+            <Loader/>
+            <h3>Oups, cette page n'existe pas, Vous serez Rédirigez vers la page précedente dans 5s.......</h3>
         </div>
     )
 }

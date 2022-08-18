@@ -12,7 +12,7 @@ function Modal({hideModal, quizInfos}) {
                 <div className='modalHeader'>{quizInfos.answer}</div>
                 <div className='modalBody'>
                     <div className='modalImg'>
-                        <img src={quizInfos.image} alt="" />
+                        <img src={quizInfos.image} alt="image" />
                     </div>
 
                     <div className='modalDescription'>

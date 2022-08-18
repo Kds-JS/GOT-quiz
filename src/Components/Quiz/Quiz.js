@@ -75,7 +75,7 @@ const Quiz = ({userData}) => {
             setScore(score + 1);
             toast.success('Bravo +1', {
                 position: "bottom-right",
-                autoClose: 5000,
+                autoClose: 1000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -84,9 +84,8 @@ const Quiz = ({userData}) => {
                 });
         } else {
             toast.error('Raté 0', {
-                icon: false,
                 position: "bottom-right",
-                autoClose: 5000,
+                autoClose: 1000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,

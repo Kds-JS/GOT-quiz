@@ -14,7 +14,7 @@ export const QuizGOT = {
             ],
             answer: 'Fantôme',
             description: `Le loup de Jon Snow a pour nom Fantôme. Un patronyme lié à sa couleur, un blanc immaculé. Il fait partie des six louveteaux trouvés lors du premier épisode par Ned Stark, le seigneur de Winterfell, qui les répartit à chacun de ses enfants, y compris à Jon, qui est pourtant son fils illégitime. Fantôme est l’un des rares loups des Stark à avoir survécu tout au long de la série, suivant fidèlement Jon dans ses aventures.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/9/94/804_Ghost_Profile.png/revision/latest?cb=20190506030424'
+            image: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Jon_Snow_and_Ghost.jpg'
         },
         {
             id: 1,
@@ -40,7 +40,7 @@ export const QuizGOT = {
             ],
             answer: 'Un cheval blanc',
             description: `Khal Drogo, seigneur du peuple guerrier des Dothrakis, offre à Daenerys un cheval blanc le jour de leurs noces. Dans la société dothrakie, le cheval tient une place centrale : "Dothraki" signifie "cavalier", et quand un seigneur dothraki n’est plus capable de monter à cheval, il est abandonné par les siens.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/2/2a/Argent%C3%A9.jpg/revision/latest?cb=20170810124355&path-prefix=fr'
+            image: 'https://media.vanityfair.fr/photos/60df2367db141fd0eb5b8282/16:9/w_2560%2Cc_limit/daenerys_4540.jpeg'
         },
         {
             id: 3,
@@ -66,7 +66,7 @@ export const QuizGOT = {
             ],
             answer: `Baelor Greyjoy`,
             description: `Il ne faut pas confondre Baelor et Balon. Baelor était un Targaryen, un ancien roi très pieux qui a donné son nom au septuaire de Port-Réal, centre névralgique de la "foi des sept". Balon Greyjoy est, lui, le seigneur des Iles de fer. Il est le père de Theon Greyjoy (qui fut otage chez les Stark) et le frère d’Euron Greyjoy. C’est d’ailleurs ce dernier qui le tue pour prendre sa place, avant de s'allier avec Cersei Lannister.`,
-            image: 'https://static.wikia.nocookie.net/a-song-of-seven-kingdoms/images/f/f2/Baelor.jpg/revision/latest?cb=20181125013535'
+            image: 'https://www.postavy.cz/foto/viserys-ii-targaryen-foto.jpg'
         },
         {
             id: 5,
@@ -92,7 +92,7 @@ export const QuizGOT = {
             ],
             answer: `Jojen`,
             description: `Jojen Reed est le fils d’Howland Reed, un allié de Ned Stark. Quand le jeune Bran et son frère Rickon fuient Winterfell dans la saison 3, ils rencontrent Jojen, qui voyage avec sa sœur Meera. Jojen, qui a des visions, révèle à Bran qu’il a lui aussi des pouvoirs.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/1/10/The_Rains_of_Castamere_3x09_%2810%29.jpg/revision/latest/scale-to-width-down/250?cb=20160630133857&path-prefix=fr'
+            image: 'http://www.game-of-thrones.fr/wp-content/uploads/2013/06/The-Rains-of-Castamere-3x09-game-of-thrones-Jojen-Reed-et-Meera-Reed.jpg'
         },
         {
             id: 7,
@@ -105,7 +105,7 @@ export const QuizGOT = {
             ],
             answer: `Viserys Targaryen`,
             description: `La Mère des dragons a souvent attiré les prétendants. Drogo l’a épousée dès le début de la série avant de mourir rapidement. A Qarth, le riche marchand Xaro Xhoan Daxos lui propose le mariage pour obtenir les moyens de reconquérir Westeros. A Meereen, le noble Hizdahr zo Loraq devient le fiancé officiel de Dany, pour sceller une alliance, mais il mourra avant la noce. En revanche, bien que les Targaryen n’aient rien contre les mariages incestueux, jamais Viserys, le grand frère de Daenerys, n’a songé à l’épouser.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/4/46/Viseryspromoheadshot.jpg/revision/latest?cb=20210722093457'
+            image: 'https://i.pinimg.com/originals/ee/c3/61/eec3612e91fff2edbba155b2e3fca5f7.jpg'
         },
         {
             id: 8,
@@ -131,7 +131,7 @@ export const QuizGOT = {
             ],
             answer: `Je rugis`,
             description: `L’expression "un Lannister paie toujours ses dettes" est très usitée dans la série, mais c’est un simple proverbe. La vraie devise des Lannister est bien "Je rugis !", eux dont le blason est un lion d'or rugissant sur champ écarlate.`,
-            image: 'https://wir.skyrock.net/wir/v1/resize/?c=isi&im=%2F8371%2F93488371%2Fpics%2F3249296232_1_3_GmoHGVcH.jpg&w=400'
+            image: 'http://idata.over-blog.com/4/90/99/85/series-Game-of-throne/01-presantations/Blason-lannister-game-of-thrones.jpg'
         }
     ],
 
@@ -147,11 +147,11 @@ export const QuizGOT = {
             ],
             answer: `L’étrangleur`,
             description: `L’étrangleur est un poison qui se présente sous forme de cristaux. C’est lui qui tue Joffrey lors de ses noces, durant lesquelles il s'étouffe, avant de virer au bleu, le visage ensanglanté.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/f/f3/Joffrey-agonisant.gif/revision/latest?cb=20170423113534&path-prefix=fr'
+            image: 'https://i0.wp.com/www.vapoteurs.net/wp-content/uploads/2019/04/dead.png'
         },
         {
             id: 1,
-            quiz: `Comment s’appelle le poison qui tue Joffrey le jour de son mariage avec Margaery Tyrell ?`,
+            quiz: `Qui tue Lady, la louve de Sansa ?`,
             options: [
                 `Sansa`,
                 `Joffrey`,
@@ -160,7 +160,7 @@ export const QuizGOT = {
             ],
             answer: `Ned Stark`,
             description: `Dans la première saison, la louve d'Arya, baptisée Nymeria, mord sévèrement le prince Joffrey au cours d’une bagarre. La bête est condamnée à mort par le roi Robert, mais, Nymeria s'étant enfuie, c'est Lady, la louve de Sansa, qui est injustement tuée à sa place par Ned Stark. `,
-            image: 'https://file1.telestar.fr/var/telestar/storage/images/3/1/9/8/3198725/lady-louve-sansa-stark.jpg?alias=original'
+            image: 'https://upload.wikimedia.org/wikipedia/en/5/52/Ned_Stark-Sean_Bean.jpg'
         },
         {
             id: 2,
@@ -186,7 +186,7 @@ export const QuizGOT = {
             ],
             answer: `Mirri Maz Duur`,
             description: `Lors d'un duel, Khal Drogo est blessé à la poitrine. Sa blessure s'infecte, le précipitant vers la mort. Daenerys prie la guérisseuse et magicienne Mirri Maz Duur de le guérir avant de lui demander quand Drogo reprendra conscience. En version courte, sa réponse correspond à un "jamais" qui traumatise profondément Daenerys.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/f/f4/Mirri_Maz_Duur.png/revision/latest/top-crop/width/360/height/360?cb=20161004223318&path-prefix=fr'
+            image: 'https://i.insider.com/574db0acdd0895d3558b45e5?width=1000&format=jpeg&auto=webp'
         },
         {
             id: 4,
@@ -199,7 +199,7 @@ export const QuizGOT = {
             ],
             answer: `Robert Baratheon`,
             description: `La série démarre en l'an 298 après la conquête du premier roi Targaryen, Aegon le Conquérant. Robert Baratheon est alors roi depuis dix-sept ans. Il meurt la même année, dans l'épisode 7 de la saison 1, des suites d'un accident de chasse.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/4/43/Robert_crop.png/revision/latest?cb=20210223122212'
+            image: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Robert_Baratheon_Profile_Mark_Addy.jpg/220px-Robert_Baratheon_Profile_Mark_Addy.jpg'
         },
         {
             id: 5,
@@ -212,7 +212,7 @@ export const QuizGOT = {
             ],
             answer: `Les Stark`,
             description: `Roose Bolton est officiellement un banneret de la maison Stark. Il jure d'ailleurs allégeance à Robb Stark, roi du Nord, dans la première saison. Les Bolton trahiront pourtant les Stark en faveur des Lannister dans la saison 2. La devise "Nos lames sont acérées" aurait pu mettre la puce à l'oreille des seigneurs de Winterfell.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/8/8a/House-Stark-Main-Shield.PNG/revision/latest?cb=20170101103142'
+            image: 'https://i.pinimg.com/originals/fe/bf/e7/febfe7f4e73b3994c94d9e36020563b7.jpg'
         },
         {
             id: 6,
@@ -225,7 +225,7 @@ export const QuizGOT = {
             ],
             answer: `Rhaegal, Viserion et Drogon`,
             description: `Emblèmes de la maison Targaryen, les trois dragons que possède Daenerys sont considérés comme les derniers représentants de leur espèce, censée être disparue. La Mère des dragons parvient à faire éclore trois œufs fossilisés en se plongeant avec eux dans le bûcher funéraire de son mari, Khal Drogo.`,
-            image: 'https://static.hitek.fr/img/actualite/2016/05/06/w_capture-d-e-cran-2016-05-06-a-11-57-47.png'
+            image: 'https://i.ytimg.com/vi/Px5s_VmXqjk/maxresdefault.jpg'
         },
         {
             id: 7,
@@ -306,7 +306,7 @@ export const QuizGOT = {
             ],
             answer: `5`,
             description: `Joffrey Baratheon monte sur le trône à la mort de son père "officiel", Robert Baratheon. Mais, doutant de sa filiation, les deux frères de Robert, Stannis et Renly, se battent pour le Trône de fer. C'est le début de la Guerre des Cinq Rois. De leur côté, Balon Greyjoy et Robb Stark veulent, eux, se détacher du royaume des Sept Couronnes et être reconnus respectivement comme roi des Iles de fer et comme roi du Nord.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/e/ed/Robert_signe_ses_derni%C3%A8res_volont%C3%A9s_1x07.jpg/revision/latest/scale-to-width-down/1200?cb=20161230055119&path-prefix=fr'
+            image: 'https://cache.marieclaire.fr/data/photo/w700_c17/4a/sale-gosse.jpg'
         },
         {
             id: 3,
@@ -358,7 +358,7 @@ export const QuizGOT = {
             ],
             answer: `Illyrio Mopatis`,
             description: `Négociant et marchand d'épices, Illyrio Mopatis accueille Viserys et Daenerys Targaryen à Pentos et organise le mariage de cette dernière avec Khal Drogo. A cette occasion, il lui offre trois œufs de dragon, provenant de contrées lointaines, qu'il pense être de simples pierres.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/d/d8/Illyrio-Mopatis-HD.png/revision/latest?cb=20190427031447'
+            image: 'https://i.pinimg.com/originals/d8/a7/df/d8a7dfed2d266c446cf506278a10371a.png'
         },
         {
             id: 7,
@@ -371,7 +371,7 @@ export const QuizGOT = {
             ],
             answer: `Westeros et Essos`,
             description: `Tout au long de la série, les événements relatés se déroulent sur les deux continents à la fois. La grande distance qui les sépare fait que certains personnages centraux de l'intrigue ne se rencontrent jamais. Jusqu'à la dernière saison, qui se déroule exclusivement à Westeros.`,
-            image: 'https://static.wikia.nocookie.net/gameofthrones/images/3/39/Westeros_and_Essos.jpg/revision/latest?cb=20120402102432'
+            image: 'https://i.pinimg.com/originals/1e/bd/ab/1ebdabd21caf387048020fbdf67aad79.jpg'
         },
         {
             id: 8,
@@ -384,7 +384,7 @@ export const QuizGOT = {
             ],
             answer: `Locke`,
             description: `Brienne de Torth est chargée par Catelyn Stark d'escorter Jaime Lannister jusqu'à Port-Réal pour l'échanger contre ses filles captives. Sur la route, ils se font capturer par des hommes de Roose Bolton, dont Locke, le meilleur chasseur du seigneur de Fort-Terreur. Il tranche la main droite de Jaimie, celle qui faisait de lui une des meilleures lames du royaume.`,
-            image: 'https://static.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/9/98/Locke.png/revision/latest?cb=20160916190833&path-prefix=fr'
+            image: 'https://64.media.tumblr.com/bb1f732561b3558ff128dd5ac405d8cd/tumblr_n4t3zpGaDV1riw2kyo1_1280.png'
         },
         {
             id: 9,

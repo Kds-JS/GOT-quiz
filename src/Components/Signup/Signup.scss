@@ -2,8 +2,7 @@
 @import '../../SCSS/mixins.scss';
 
 .Login{
-    // height: auto;
-    min-height: 510px;
+    flex-grow: 1;
     @include flex-1 (row, center);
     padding: 25px  10% 25px 5%;
     background-image: url(../../Images/bg-noise-texture.png);
@@ -88,11 +87,11 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .Login{
         padding: 25px 10%;
         display: block;
-        min-height: 960px;
+
         .loginImg{
             display: none;
         }
@@ -100,10 +99,9 @@
     }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 540px) {
     .Login{
         padding: 25px 10%;
-        min-height: 600px;
 
         .otherBtn{
             flex-direction: column;

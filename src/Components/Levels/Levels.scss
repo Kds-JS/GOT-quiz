@@ -7,3 +7,9 @@
     height: auto;
     padding: 0 15px;
 }
+
+@media screen and (max-width: 540px) {
+    .level{
+        margin: 15px 0;
+    }
+}

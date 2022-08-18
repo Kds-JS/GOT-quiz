@@ -17,18 +17,18 @@
     .bar{
         margin-top: 20px;
         width: 100%;
-        padding: 3px;
+        padding: 5px;
         border-radius: 5px;
         background: $light-grey-color;
         
 
 
         .bar-change{
-            text-align: center;
+            @include flex-1 (row,center);
             color: $white-color;
             font-weight: 600;
             border-radius: 5px;
-            height: 20px;
+            height: 25px;
             background: $red-color;
             background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
             background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
@@ -39,14 +39,16 @@
     }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 540px) {
     .progressbar{
+        margin: 25px 10%;
 
         .progress{
-            flex-direction: column;
+            
 
             div{
                 margin-top: 25px;
+                padding: 10px 3%;
             }
         }
     }

@@ -128,10 +128,14 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .quizOver{
 
         .progress{
+
+            img{
+                display: none;
+            }
 
             h1{
                 font-size: 25px;
@@ -147,7 +151,7 @@
     }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 540px) {
     .quizOver{
         margin: 25px 5% 50px 5%;
 
@@ -156,10 +160,11 @@
         }
 
         .score{
-            flex-direction: column;
+            
 
             div{
                 margin-top: 15px;
+                padding: 10px 3%;
             }
         }
 

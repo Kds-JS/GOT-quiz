@@ -56,7 +56,7 @@ const QuizOver = forwardRef((props,ref) => {
         <Fragment>
             <div><h1 style={{color: 'green'}}>
                 Bravo, Vous êtes le nouvel héritier du trone de fer
-                <img src={iconTrone} alt="" width='150px'/>
+                <img src={iconTrone} alt="image" width='100px'/>
                 </h1></div>
             <button onClick={() => restartLevel()}>Accueil</button>
         </Fragment>
@@ -115,7 +115,7 @@ const QuizOver = forwardRef((props,ref) => {
 
                             :
                             (
-                                <tr>
+                                <tr style={{textAlign: "left"}}>
                                     
                                     <td colspan="3">
                                         <Loader
