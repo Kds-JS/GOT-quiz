@@ -1,0 +1,53 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.loading {
+    // text-align: center;
+    // min-height: 560px;
+    @include flex-1 (column, center);
+
+    .loader {
+        border: 10px solid $light-grey-color;
+        border-radius: 50%;
+        border-top: 10px solid $red-color;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+        margin: 40px auto 20px;
+
+        @-webkit-keyframes spin {
+            0% {
+              -webkit-transform: rotate(0deg);
+            }
+          
+            100% {
+              -webkit-transform: rotate(360deg);
+            }
+          }
+          
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg);
+            }
+          
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+      }
+
+    p{
+        color: black;
+    }
+}
+
+// @media screen and (max-width: 768px) {
+//   .loading{
+//     min-height: 480px;
+//   }
+// }
+
+  
+  
+  

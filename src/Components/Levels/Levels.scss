@@ -1,0 +1,9 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.level{
+    @include flex-1 (row, center);
+    margin: 0 10%;
+    height: auto;
+    padding: 0 15px;
+}

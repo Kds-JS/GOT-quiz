@@ -1,0 +1,138 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.modal{
+    @include flex-1 (column, center);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 0, 0, 0.5);
+
+    .modalContainer{
+        background: $white-color;
+        height: auto;
+        width: 50%;
+        
+
+        .modalHeader{
+            background: $dark-red-color;
+            color: $white-color;
+            padding: 15px 25px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .modalBody{
+            @include flex-1 (row, flex-start);
+            height: 250px;
+            padding: 40px;
+
+            .modalImg{
+                width: 30%;
+                height: 100%;
+                
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .modalDescription{
+                height: 100%;
+                width: 70%;
+                margin-left: 25px;
+                padding-top: 0;
+
+                h2{
+                    margin: 0;
+                }
+                
+
+                button{
+                    background: $dark-red-color;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 17px;
+                    border: none;
+                    padding: 5px 15px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: $red-color;
+                    }
+                }
+            }
+        }
+
+        .modalFooter{
+            @include flex-1 (row, flex-end);
+            background: $light-grey-color;
+            padding: 5px 5px;
+
+            button{
+                background: $deep-black-color;
+                color: $white-color;
+                padding: 7px 20px;
+                border-radius: 5px;
+                font-size: 17px;
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    background: $dark-red-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .modal{
+
+        .modalContainer{
+            width: 80%;
+
+            .modalBody{
+                padding: 60px 50px;
+            }
+        }
+
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal{
+
+        .modalContainer{
+            width: 80%;
+
+            .modalBody{
+                height: 350px;
+                flex-direction: column;
+                padding: 25px 15px;
+                overflow: auto;
+
+                .modalImg{
+                    height: 150px;
+                    width: 50%;
+                }
+
+
+                .modalDescription{
+                    width: 90%;
+                    margin-top: 25px;
+                    margin-left: 25px;
+                    
+                }
+            }
+        }
+
+        
+    }
+}

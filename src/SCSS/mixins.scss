@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+@mixin flex-1 ($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+}

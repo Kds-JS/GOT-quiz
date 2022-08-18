@@ -1,0 +1,25 @@
+@import '../../SCSS/mixins.scss';
+
+.welcome{
+    min-height: 560px;
+
+    
+    
+}
+
+.center{
+    @include flex-1(column, center);
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome{
+        min-height: 960px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .welcome{
+        min-height: 650px;
+    }
+}
+

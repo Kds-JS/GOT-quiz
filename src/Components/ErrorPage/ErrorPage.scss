@@ -1,0 +1,15 @@
+@import '../../SCSS/variables.scss';
+
+.ErrorPage{
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .ErrorPage{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

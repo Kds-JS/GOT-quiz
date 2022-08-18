@@ -1,0 +1,173 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.quizOver{
+    margin: 25px 10% 80px 10%;
+
+    .progress{
+        @include flex-1 (row, space-between);
+        margin-bottom: 25px;
+
+        h1{
+            font-size: 25px;
+        }
+
+        div{
+            font-family: $titleFont;
+        }
+
+
+        button{
+            background: $green-color;
+            padding: 10px 5%;
+            font-size: 17px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            color: $white-color;
+            cursor: pointer;
+
+            &:hover{
+                background: $light-green-color
+            }
+        }
+    }
+
+    .score{
+        @include flex-1 (row, space-between);
+
+        div{
+            background-color: $light-grey-color;
+            padding: 10px 10%;
+            border-radius: 7px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .answer{
+        margin-top: 25px;
+        overflow-x: auto;
+
+        hr{
+            color: silver;
+        }
+
+        p{
+            // text-align: center;
+            font-size: 17px;
+            font-style: italic;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 1205px;
+            
+
+            thead{
+                border: 1px solid;
+                background-color: $dark-red-color;
+                color: $white-color;
+                
+
+                th{
+                    border: 1px solid;
+                    height: 40px;
+                    text-transform: uppercase;
+                    
+                    font-size: 20px;
+                    
+
+                    &:nth-child(1){
+                        width: 55%;
+                    }
+                    &:nth-child(2){
+                        width: 25%;
+                    }
+                    &:nth-child(3){
+                        width: 20%;
+                    }
+                }
+
+            }
+
+            tbody{
+
+                h2{
+                    text-align: center;
+                }
+
+                tr{
+                    // border: 1px solid silver;
+
+                    td{
+                        border: 1px solid silver;
+                        text-align: center;
+                        padding: 10px 0;
+                        font-size: 20px;
+                    }
+    
+                    button{
+                       padding: 8px 15%;
+                       cursor: pointer;
+                       border: none;
+                       border-radius: 5px;
+                       background-color: $dark-red-color;
+                       color: $white-color;
+                       font-size: 20px;
+    
+                       &:hover{
+                        background: $red-color;
+                       }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .quizOver{
+
+        .progress{
+
+            h1{
+                font-size: 25px;
+            }
+        }
+
+        .answer{
+
+            table{
+                width: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .quizOver{
+        margin: 25px 5% 50px 5%;
+
+        .progress{
+            flex-direction: column;
+        }
+
+        .score{
+            flex-direction: column;
+
+            div{
+                margin-top: 15px;
+            }
+        }
+
+        .answer{
+
+            table{
+                width: 500px;
+            }
+        }
+    }
+}

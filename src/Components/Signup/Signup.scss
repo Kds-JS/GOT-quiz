@@ -1,0 +1,118 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.Login{
+    // height: auto;
+    min-height: 510px;
+    @include flex-1 (row, center);
+    padding: 25px  10% 25px 5%;
+    background-image: url(../../Images/bg-noise-texture.png);
+    background-position: center;
+    color: white;
+
+    div{
+        width: 100%;
+
+        h4{
+            text-transform: uppercase;
+            font-style: italic;
+            margin-bottom: 40px;
+            font-weight: 600;
+            font-size: 25px;
+        }
+
+        .otherBtn{
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                color: $light-grey-color;
+               
+                &:hover{
+                    color: $red-color;
+                }
+            }
+        }
+    }
+
+    form{
+        border-bottom: 1px dashed white;
+
+        input{
+            width: 100%;
+            padding: 10px 0;
+            font-size: 17px;
+            color: $red-color;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 30px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid $white-color;
+            outline: none;
+        }
+
+        label{
+            font-style: italic;
+            font-size: 17px;
+        }
+
+        #submitBtn{
+            text-align: center;
+
+            button{
+                margin-bottom: 40px;
+                background: $red-color;
+                color: white;
+                font-size: 16px;
+                padding: 5px 15px;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: $dark-red-color;
+                }
+
+                &:disabled{
+                    background-color: $light-grey-color;
+                    color: $black-color;
+                    opacity: 0.65;
+                    cursor: not-allowed;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .Login{
+        padding: 25px 10%;
+        display: block;
+        min-height: 960px;
+        .loginImg{
+            display: none;
+        }
+
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .Login{
+        padding: 25px 10%;
+        min-height: 600px;
+
+        .otherBtn{
+            flex-direction: column;
+
+            a{
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+    
+}

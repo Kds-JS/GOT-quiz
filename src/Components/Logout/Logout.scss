@@ -1,0 +1,53 @@
+@import '../../SCSS/variables.scss';
+@import '../../SCSS/mixins.scss';
+
+.logout {
+    @include flex-1 (row, flex-end);
+    margin: 20px 10% 30px 10%;
+
+    input[type=checkbox]{
+      height: 0;
+      width: 0;
+      visibility: hidden;
+    }
+    
+    label {
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 80px;
+      height: 40px;
+      background: $light-green-color;
+      display: block;
+      border-radius: 100px;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 5px;
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+    }
+    
+    
+    input:checked + label {
+      background: $dark-red-color;
+    }
+    
+    input:checked + label:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+    }
+    
+    label:active:after {
+      width: 100px;
+    }
+    
+  }
+  
+  
