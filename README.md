@@ -6,9 +6,9 @@
 ### Il s'agit d'un questionnaire sur la série Games Of Thrones.
 
 ## Fonctionnement
-- [] Inscription , Connexion et Récupération de mot de passe 
-- [] Avant tout, créer un compte et connectez vous pour accéder au quiz.
-  ###Règles du jeu
+- Inscription , Connexion et Récupération de mot de passe 
+- Avant tout, créer un compte et connectez vous pour accéder au quiz.
+- ###Règles du jeu
 - [] C'est un Questionnaire à Choix Multiple (QCM)
 - [] Le questionnaire est constitué de trois niveau (débutant, amateur et expert)
 - [] 10 questions pour chaque niveau
