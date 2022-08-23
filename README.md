@@ -1,8 +1,9 @@
 # GOT Quiz APP
 
-[![Screen GOT Quiz](./src/Design-GOT-Quiz/Localhost - Generic Laptop - 2022-08-18 at 6.55.49 PM.jpg)](https://twitter.com/kds_JS)
+[![Screen ToDo App](./src/Design-GOT-Quiz/Localhost - Generic Laptop - 2022-08-18 at 6.55.49 PM.jpg)](https://twitter.com/kds_JS)
 
-Il s'agit d'un questionnaire sur la série Games Of Thrones.
+
+###Il s'agit d'un questionnaire sur la série Games Of Thrones.
 
 ## Fonctionnement
 
