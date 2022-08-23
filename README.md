@@ -23,7 +23,7 @@
 
 ## [Démo en Direct](https://got-quiz-eight.vercel.app/)
 
-## Languages et outils utilisés 
+## Langages et outils utilisés 
  - React 
  - SCSS
  - Firebase
