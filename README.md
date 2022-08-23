@@ -7,6 +7,8 @@
 
 ## Fonctionnement
 
+[![Screen ToDo App](./src/Design-GOT-Quiz/banner-2.jpg)](https://twitter.com/kds_JS)
+
 - [] Inscription , Connexion et Récupération de mot de passe 
 - [] Avant tout, créer un compte et connectez vous pour accéder au quiz.
 - [] Fonctionnement du jeu
