@@ -9,11 +9,11 @@
 - [] Inscription , Connexion et Récupération de mot de passe 
 - [] Avant tout, créer un compte et connectez vous pour accéder au quiz.
 - [] Fonctionnement du jeu
-        - C'est un Questionnaire à Choix Multiple (QCM)
-        - Le questionnaire est constitué de trois niveau (débutant, amateur et expert)
-        - 10 questions pour chaque niveau
-        - Pour chaque question, vous auriez quatres propositions de réponses
-        - Pour débloquez le niveau suivant, donnez au moins 5 bonnes réponses
+        - [] C'est un Questionnaire à Choix Multiple (QCM)
+        - [] Le questionnaire est constitué de trois niveau (débutant, amateur et expert)
+        - [] 10 questions pour chaque niveau
+        - [] Pour chaque question, vous auriez quatres propositions de réponses
+        - [] Pour débloquez le niveau suivant, donnez au moins 5 bonnes réponses
 
 
 [![Screen ToDo App](./src/Design-GOT-Quiz/banner-2.jpg)](https://twitter.com/kds_JS)
